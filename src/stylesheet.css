@@ -1,0 +1,362 @@
+/************************************************************/
+/* Navbar section */
+/************************************************************/
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.navbar-links {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #5e6970;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.navbar-link {
+    margin-right: 20px;
+    color: #EBECED;
+    font-weight: 600;
+}
+
+.navbar-link:hover {
+    color: #d9770f;
+}
+
+@media (max-width: 420px) {
+    .navbar-link {
+        font-size: 12px;
+    }
+}
+
+/************************************************************/
+/* Header section */
+/************************************************************/
+
+.header {
+    box-sizing: border-box;
+}
+
+.header-image {
+    width: 100%;
+    object-fit: cover;
+    max-height: 100vh;
+    mask-image: linear-gradient(to top, transparent 2%, black 25%);
+}
+
+.header-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #CBC5C1;
+}
+
+.social-links > a {
+    color: #000;
+}
+
+.MuiSvgIcon-root {
+    font-size: 40px !important;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 577px) {
+    .header-text {
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+    }
+
+    .MuiSvgIcon-root {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 310px) {
+    .header-text {
+        font-size: 12px;
+    }
+
+    .MuiSvgIcon-root {
+        font-size: 16px !important;
+    }
+}
+
+/************************************************************/
+/* About Section */
+/************************************************************/
+
+.about {
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    background-color: #303338;
+    color: #fff;
+    padding: 10px;
+}
+
+.about-right {
+    flex: 0.3;
+    margin: 10px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+
+.profile-image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.about-left {
+    flex: 0.7;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.about-text {
+    text-align: justify;
+    padding: 10px;
+}
+
+.about-text > h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #edeff2;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #000;
+}
+
+@media (max-width: 555px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .about-text {
+        font-size: 10px !important;
+    }
+
+    .about-right {
+        margin-top: 10px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/************************************************************/
+/* Resume Section */
+/************************************************************/
+
+.resume {
+    width: 100%;
+    min-height: 500px;
+    background-color: #EBECED;
+}
+
+.resume-section {
+    display: flex;
+    border-bottom: 1px solid #dce0e3;
+    padding: 20px;  
+}
+
+.section2 {
+    position: relative;
+    width: 100%;
+    background: #CBC5C1;
+    z-index: 1;
+}
+
+.section2::after {
+    position: absolute;
+    height: 100%;
+    background-color: inherit;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+
+.resume-title {
+    color: #4C586F;
+    text-shadow: 1px 1px 1px #000;
+    flex: 0.3;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.resume-info {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.resume-infoLineOne {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.resume-infoLineTwo {
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 4px;
+}
+
+.time-span {
+    margin-left: 10px;
+    font-style: normal;
+
+}
+
+.resume-infoLineThree {
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.resume-skillsSet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.resume-skillBox {
+    border: 1px solid #3E3E3B;
+    padding: 10px;
+    box-shadow: 5px 5px 8px #888888;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 555px) {
+    .resume-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-infoLineOne {
+        font-size: 16px;
+    }
+
+    .resume-infoLineTwo {
+        font-size: 12px;;
+    }
+
+    .resume-infoLineThree {
+        font-size: 10px;
+    }
+
+    .resume-skillsSet {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .resume-skillBox {
+        padding: 5px;
+    }
+
+    
+}
+
+/************************************************************/
+/* Project Section */
+/************************************************************/
+
+#projects {
+    background-color: #4C586F;
+}
+
+#projects > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: #EBECED;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.projects {
+    background-color: #4C586F;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.project {
+    display: flex;
+    margin: 20px;
+}
+
+.project-image {
+    flex: 0.4;
+    max-width: 400px;
+    object-fit: contain;
+}
+
+.project-image:hover {
+    translate: scale(1.03);
+}
+
+.project-info {
+    flex: 0.6;
+    margin-left: 10px;
+    color: #c4cdcf;
+}
+
+.project-info > h2 {
+    color: #d2f3fa;
+}
+
+.project-title {
+    text-transform: capitalize;
+}
+
+@media (max-width: 740px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-title {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-image {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 345px) {
+    .project-image {
+        max-width: 200px;
+    }
+}
