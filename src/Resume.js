@@ -39,16 +39,16 @@ const Resume = () => {
                 Freelancing
                     <span className='time-span'>(Sep2019- May2020)</span>
                 </p>
-                <p className='resume-infoLineThree'>Worked on wide variety of projects including UI/UX designs and layouts, designing web applications from scratch and debugging using latest technology, thus refining development skill<br />
+                <p className='resume-infoLineThree'>Worked on wide variety of projects including UI/UX designs and layouts, designing web applications from scratch and debugging using latest technology, thus refining development skill.<br />
                 Developed websites and landing pages for small businesses such as restaurants, interior designers, fashion designers and Gymnasiums.</p>
                  
-                <p className='resume-infoLineOne'>Junior Engineer</p>
+                <p className='resume-infoLineOne'>Frontend Web Developer</p>
                 <p className='resume-infoLineTwo'>
                 Smartcool Systems Pvt Ltd
                     <span className='time-span'>(Dec2016- Nov2017)</span>
                 </p>
-                <p className='resume-infoLineThree'>Identified, documented and reported bugs, errors, interoperability flaws and other issues within proprietary software applications
-                <br />Perform system, unit, acceptance, regression, load and functional/performance testing on dozens of applications using both automated and manual testing methods</p>
+                <p className='resume-infoLineThree'>Design website for the company highlighting different products company deals with.
+                <br />Collaborated with UI and UX Designers on wireframes and mockups to finalize the appearance of the product</p>
 
                 <p className='resume-infoLineOne'>Intern-Networking(CCNA)</p>
                 <p className='resume-infoLineTwo'>
@@ -102,7 +102,7 @@ const Resume = () => {
                         <h4>Github</h4>
                     </div>
                     <div className='resume-skillBox'>
-                        <h4>Postman</h4>
+                        <h4>MySQL</h4>
                     </div>
                     <div className='resume-skillBox'>
                         <h4>Adobe Creative Suite</h4>
