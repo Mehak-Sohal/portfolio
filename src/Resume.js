@@ -53,7 +53,7 @@ const Resume = () => {
                 <p className='resume-infoLineOne'>Intern-Networking(CCNA)</p>
                 <p className='resume-infoLineTwo'>
                 NIIT, India
-                    <span className='time-span'>(Dec2016- Nov2017)</span>
+                    <span className='time-span'>(Jan2017- May2017)</span>
                 </p>
                 <p className='resume-infoLineThree'>Ability to install, configure, operate and troubleshoot medium-size route and switched networks, including implementation and verification of connections to remote sites in a WAN.</p>
 
