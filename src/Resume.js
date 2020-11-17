@@ -34,6 +34,13 @@ const Resume = () => {
                 </div>
                 <div className='resume-info'>
 
+                <p className='resume-infoLineOne'>Intern Software Developer</p>
+                <p className='resume-infoLineTwo'>
+                Omada Tek, Toronto, CA
+                    <span className='time-span'>(Nov2020- Present)</span>
+                </p>
+                <p className='resume-infoLineThree'>Assists in current projects built using ReactJs, MongoDb.</p>
+
                 <p className='resume-infoLineOne'>Frontend Web Developer</p>
                 <p className='resume-infoLineTwo'>
                 Freelancing
