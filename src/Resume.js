@@ -46,7 +46,7 @@ const Resume = () => {
 
             <p className="resume-infoLineOne">Software Developer</p>
             <p className="resume-infoLineTwo">
-              Unicode Software Solutions Inc., Ontario, CA
+              Freelance
               <span className="time-span">(June2019- Oct2020)</span>
             </p>
             <p className="resume-infoLineThree">
